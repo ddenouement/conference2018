@@ -109,9 +109,17 @@ app.factory('oauth2Provider', function ($modal) {
      * Logs out the user.
      */
     oauth2Provider.signOut = function () {
+    	  document.location.href = "https://www.google.com/accounts/Logout?continue=https://appengine.google.com/_ah/logout?continue=https://conference2018clouds.appspot.com";
+          
+    	var auth2 = gapi.auth2.getAuthInstance();
+    	auth2.signOut().then(function () {
+    	  console.log('User signed out.');
+    	});
         gapi.auth.signOut();
         // Explicitly set the invalid access token in order to make the API calls fail.
-        gapi.auth.setToken({access_token: ''})
+     //   gapi.auth.setToken({access_token: '....'})
+        
+      
         oauth2Provider.signedIn = false;
     };
 

@@ -749,7 +749,7 @@ conferenceApp.controllers.controller('RootCtrl', function ($scope, $location, oa
      */
     $scope.signOut = function () {
         oauth2Provider.signOut();
-        $scope.alertStatus = 'success';
+       $scope.alertStatus = 'success';
         $scope.rootMessages = 'Logged out';
     };
 

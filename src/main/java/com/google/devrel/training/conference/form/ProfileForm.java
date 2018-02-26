@@ -22,11 +22,15 @@ public class ProfileForm {
      * @param notificationEmail An e-mail address for getting notifications from this system.
      */
     public ProfileForm(String displayName, TeeShirtSize teeShirtSize) {
+    	
         this.displayName = displayName;
-        this.teeShirtSize = teeShirtSize;
+           this.teeShirtSize = teeShirtSize;
+    //    if (teeShirtSize == null)this.teeShirtSize = TeeShirtSize.NOT_SPECIFIED;
+        	
     }
 
     public String getDisplayName() {
+    	//if(displayName == null) System.out.println(x);;
         return displayName;
     }
 
