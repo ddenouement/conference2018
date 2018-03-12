@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<datastore-indexes autoGenerate="true">
+
+	<!-- Used 1 time in query history -->
+    <datastore-index kind="Conference" ancestor="true" source="manual">
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="city" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="topics" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="month" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="maxAttendees" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="city" direction="asc"/>
+        <property name="maxAttendees" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="topics" direction="asc"/>
+        <property name="maxAttendees" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="month" direction="asc"/>
+        <property name="maxAttendees" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="city" direction="asc"/>
+        <property name="month" direction="asc"/>
+        <property name="maxAttendees" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="month" direction="asc"/>
+        <property name="topics" direction="asc"/>
+        <property name="maxAttendees" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="city" direction="asc"/>
+        <property name="month" direction="asc"/>
+        <property name="topics" direction="asc"/>
+        <property name="maxAttendees" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="city" direction="asc"/>
+        <property name="month" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="month" direction="asc"/>
+        <property name="topics" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="city" direction="asc"/>
+        <property name="month" direction="asc"/>
+        <property name="topics" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+ 
+    <datastore-index kind="Conference" ancestor="false" source="manual">
+        <property name="city" direction="asc"/>
+        <property name="topics" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    
+</datastore-indexes>
